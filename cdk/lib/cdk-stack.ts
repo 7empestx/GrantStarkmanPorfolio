@@ -46,7 +46,7 @@ export class CdkStack extends Stack {
 
     new s3deploy.BucketDeployment(this, `DeployVozAmigo`, {
       sources: [
-        s3deploy.Source.asset("../frontend"),
+        s3deploy.Source.asset("../website/build"),
       ],
       destinationBucket: grantStarkmanWebsiteBucket,
     });
