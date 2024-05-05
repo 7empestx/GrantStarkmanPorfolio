@@ -21,7 +21,7 @@ jobs:
 
       - name: Install Dependencies For React App
         run: npm install
-        working-directory: ./GrantStarkmanPortfolio
+        working-directory: ./website
 
       - name: Install AWS CDK CLI
         run: npm install -g aws-cdk
