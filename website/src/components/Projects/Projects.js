@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import chatify from '../../Assets/Projects/chatify.png';
+import vozamigo from '../../Assets/Projects/VozAmigo.png';
 
 function Projects() {
   return (
@@ -18,7 +18,7 @@ function Projects() {
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={vozamigo}
               isBlog={false}
               title="VozAmigo"
               description="AI-Powered Language Learning Companion: Revolutionize your Spanish learning journey with an innovative app designed to provide personalized and interactive language experiences."
