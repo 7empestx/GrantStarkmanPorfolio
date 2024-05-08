@@ -36,6 +36,6 @@ cdk deploy --require-approval never
 echo "CDK stack deployed successfully."
 
 echo "Invalidating the CloudFront cache..."
-#aws cloudfront create-invalidation --distribution-id ESZCT217A1VZO --paths "/*"
+aws cloudfront create-invalidation --distribution-id E3SCKQ3IBK9SKR --paths "/*"
 
 echo "Build and deployment script completed."

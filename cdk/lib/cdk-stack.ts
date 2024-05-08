@@ -96,6 +96,7 @@ export class CdkStack extends Stack {
           }),
 
           viewerProtocolPolicy: cloudfront.ViewerProtocolPolicy.REDIRECT_TO_HTTPS,
+          cachePolicy: cloudfront.CachePolicy.CACHING_DISABLED,
         },
         errorResponses: [
           {
