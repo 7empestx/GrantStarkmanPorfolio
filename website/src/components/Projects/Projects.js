@@ -13,7 +13,8 @@ function Projects() {
           My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: 'white' }}>
-          Here are a few projects I've worked on recently. Click on the projects to see more details.
+          Here are a few projects I've worked on recently. Click on the projects
+          to see more details.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={6} lg={4} className="project-card">

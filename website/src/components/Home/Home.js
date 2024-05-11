@@ -36,7 +36,11 @@ function Home() {
                 <Type />
               </div>
               <div>
-    <button className="btn btn-primary" onClick={() => navigate('/projects')}>View My Work</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => navigate('/projects')}>
+                  View My Work
+                </button>
               </div>
             </Col>
 
