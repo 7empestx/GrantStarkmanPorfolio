@@ -5,6 +5,7 @@ Welcome to my personal portfolio website repository! This website showcases my s
 <figure>
   <img src="Architecture.drawio.png" alt="Architecture Diagram" width="600">
 </figure>
+
 ## Features
 
 - **Interactive Navigation:** Explore different sections of the website with ease using the navbar.
