@@ -2,6 +2,9 @@
 
 Welcome to my personal portfolio website repository! This website showcases my skills, projects, and experience in full-stack development and cloud solutions architecture. It's built using React and Bootstrap for a modern and responsive user interface.
 
+<figure>
+  <img src="Architecture.drawio.png" alt="Architecture Diagram" width="600">
+</figure>
 ## Features
 
 - **Interactive Navigation:** Explore different sections of the website with ease using the navbar.
