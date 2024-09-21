@@ -38,7 +38,7 @@ function Home() {
               <div>
                 <button
                   className="btn btn-primary"
-                  onClick={() => navigate('/projects')}>
+                  onClick={() => window.open('https://github.com/7empestx', '_blank')}>
                   View My Work
                 </button>
               </div>

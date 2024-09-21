@@ -3,3 +3,4 @@ website/build
 
 cdk/node_modules
 cdk/cdk.out
+package-lock.json

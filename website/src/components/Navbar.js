@@ -67,8 +67,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/projects"
+                href="https://github.com/7empestx"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: '2px' }}
@@ -79,8 +80,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+                href="https://www.linkedin.com/in/grant-starkman/"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
               </Nav.Link>
@@ -88,7 +90,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/7empestx/7empestx.github.io"
+                href="https://github.com/7empestx/GrantStarkmanPorfolio"
                 target="_blank"
                 className="fork-btn-inner">
                 <CgGitFork style={{ fontSize: '1.2em' }} />{' '}
